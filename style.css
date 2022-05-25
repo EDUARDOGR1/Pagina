@@ -1,0 +1,62 @@
+h1{
+    font-size: 3rem;
+	margin-left: 3rem;
+	color: indigo;
+	animation-duration: 1.8s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+}
+p {
+	font-size: 1.2rem;
+    padding: 0rem 3rem;
+	margin: 15px 1px;
+    text-align: justify;
+}
+p {
+	animation-duration: 2s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+  img{
+      border-radius: 40px;
+      height: 200px;
+}
+
+  .img {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+
+	  @keyframes slidein {
+		from {
+		  margin-left: 100%;
+		  width: 300%;
+		}
+	  
+		to {
+		  margin-left: 0%;
+		  width: 100%;
+		}
+}
